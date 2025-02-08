@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Liter';
+    src: url('../fonts/Liter-Regular.ttf') format('truetype');
+}
+
+body, html {
+    height: 90%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Liter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    background-color: #f4f4f4;
+    overflow: hidden;
+    position: relative;
+}
+
+a {
+    color: black;
+    font-weight: 400;
+    z-index: 4;
+}
+
+.header-text {
+    font-size: xx-large; /* medium-large size */
+    font-weight: bold;
+    font-family: 'Liter', sans-serif;
+    text-align: left;
+    padding-top: 1%; /* adjust the padding value as needed */
+    padding-left: 2%; /* adjust the padding value as needed */
+    padding-bottom: 10%; /* adjust the padding value as needed */
+}
+
+.intro-text {
+    font-size: xx-large; /* medium size */
+    font-family: 'Liter', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 3%; /* adjust the padding value as needed */
+    padding-bottom: .1%; /* adjust the padding value as needed */
+}
+
+.body-text {
+    font-size: x-large; /* small size */
+    font-family: 'Liter', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 3%; /* adjust the padding value as needed */
+    padding-bottom: 30%; /* adjust the padding value as needed */
+}
+
+.footer-text {
+    font-size: small; /* small size */
+    font-family: 'Liter', sans-serif;
+    left: 2%;
+    width: 100%;
+    font-weight: 300;
+    text-align: bottom;
+    padding-left: 2%; /* adjust the padding value as needed */
+    padding-bottom: 1%; /* adjust the padding value as needed */
+    height: 5%; 
+}
+
+
+/* The canvas should cover the full screen */
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: auto;
+    z-index: 2;
+}
+
+.controls {
+    position: fixed;
+    bottom: 5%;
+    left: 40%;
+    z-index: 3;
+    font-family: 'Liter', sans-serif;
+  }
+
+  .controls button, .controls input[type="color"] {
+    margin: 5px;
+    padding: 8px;
+    cursor: pointer;
+    font-family: 'Liter', sans-serif;
+    font-size: small;
+  }
