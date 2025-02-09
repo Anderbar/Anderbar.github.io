@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Liter';
+    src: url('../fonts/Liter-Regular.ttf') format('truetype');
+}
+
+body, html {
+    height: 90%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Liter', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    color: #ffffff;
+    background-color: #ebb8b8;
+    overflow: hidden;
+    position: relative;
+}
+
+.yes-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #e91e63;
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
+
+.no-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #e91e63;
+    border: white;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
+    top: 90%;
+    left: 57%;
+}
+
+
+.center-text-h1 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 2%;
+}
+
+.center-text-p {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20%;
+    height: auto;
+}
